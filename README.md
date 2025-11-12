@@ -1,6 +1,16 @@
-# RxSafeBench
+<!--
+Source - https://stackoverflow.com/a/12118349
+Posted by waldyr.ar, modified by community. See post 'Timeline' for change history
+Retrieved 2025-11-12, License - CC BY-SA 4.0
+-->
 
-**Paper link:** [https://arxiv.org/abs/2511.04328](https://arxiv.org/abs/2511.04328)
+<p align="center">
+<img width="200" height="200" alt="为RxSafeBench生成Logo" src="https://github.com/user-attachments/assets/1cf3d281-81ee-44d5-ae93-53d71ed82909" />
+</p>
+
+# RxSafeBench: Identifying Medication Safety Issues of Large Language Models in Simulated Consultation
+
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2511.04328)
 
 ## News
 
@@ -11,13 +21,20 @@
 
 ## Overview
 
+
+<img width="5594" height="2268" alt="pipeline_01" src="https://github.com/user-attachments/assets/e6c9fb63-3d4b-4d26-af7a-d4b61b7f5ae2" />
+
 **RxSafeBench** is the first comprehensive benchmark designed to evaluate the **medication safety capabilities of Large Language Models (LLMs)** in realistic clinical consultation settings.  
 While LLMs have shown impressive performance across various medical applications, their safety in medication recommendation remains largely underexplored due to the lack of real-world, privacy-safe datasets.
+<img width="1974" height="660" alt="fig1" src="https://github.com/user-attachments/assets/5a82aa34-d948-4aaa-920a-fe2e4f3384ac" />
 
 To address this gap, RxSafeBench introduces a framework that **simulates doctor–patient consultations** with embedded medication risks. It is built upon **RxRisk DB**, a curated medical safety database containing:
 - **6,725 contraindications**  
 - **28,781 drug interactions**  
 - **14,906 indication–drug pairs**
+
+<img width="2419" height="1058" alt="framework1_01" src="https://github.com/user-attachments/assets/386fcda8-7304-44ad-b239-9f6ec71ee654" />
+
 
 After multi-stage expert filtering, the benchmark includes **2,443 high-quality consultation scenarios** that test how well LLMs recommend safe medications in realistic contexts.  
 Evaluation results reveal that even leading LLMs struggle with **implicit drug risks and complex interaction reasoning**, highlighting the need for improved prompting and domain-specific fine-tuning.
