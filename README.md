@@ -10,7 +10,7 @@ Retrieved 2025-11-12, License - CC BY-SA 4.0
 
 # RxSafeBench: Identifying Medication Safety Issues of Large Language Models in Simulated Consultation
 
-[![arXiv](https://img.shields.io/badge/arXiv-2511.04328-b31b1b.svg)](https://arxiv.org/abs/2511.04328)
+[![BIBM2025](https://img.shields.io/badge/IEEE-00629B.svg?style=for-the-badge&logo=IEEE&logoColor=white)](https://ieeexplore.ieee.org/document/11356353) [![arXiv](https://img.shields.io/badge/arXiv-2511.04328-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2511.04328)
 
 ## News
 - **[January 2026]:** New benchmark results added for **Baichuan-M3-Plus**.  
@@ -83,3 +83,18 @@ RxSafeBench provides a valuable resource for researchers and developers aiming t
 | Urology | 34.38 | 18.75 | 10.34 | 21.88 | 0.00 | 28.12 | 6.25 | 43.75 | 25.00 | 20.43 |
 | Stomatology | 28.57 | 14.29 | 16.67 | 7.14 | 14.29 | 14.29 | 21.43 | 14.29 | 14.29 | 16.37 |
 | **Total** | 26.38 | 28.41 | 22.27 | 23.71 | 27.10 | 30.36 | 29.06 | 38.12 | 40.22 | 28.18 |
+
+## Cite Us
+
+```bibtex
+@INPROCEEDINGS{11356353,
+  author={Zhao, Jiahao and Xu, Luxin and Tan, Minghuan and Zhang, Lichao and Argha, Ahmadreza and Alinejad-Rokny, Hamid and Yang, Min},
+  booktitle={2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
+  title={RxSafeBench: Identifying Medication Safety Issues of Large Language Models in Simulated Consultation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={4491-4496},
+  keywords={Measurement;Decision support systems;Filtering;Large language models;Drug interactions;Medical services;Benchmark testing;Regulation;Safety;Reliability;Intelligent medical systems;Medication safety;Evaluation of Large Language Models},
+  doi={10.1109/BIBM66473.2025.11356353}}
+```
